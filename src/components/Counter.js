@@ -12,11 +12,15 @@ const Counter = (props) => {
     const decreaseCounter = () => setCounter(counter-1)
     const increaseCounter = () => setCounter(counter+1)
 
+    // here we have a mix of actual HTML tags (in lowercase)
+    // and of components tags(Button, in CamelCase)
     return (
         <div class="counter">
-          <span>{text}</span>
+          <span>{text} ({counter})</span>
           <div class="buttons">
             <Button text="-" type="decrease" onClick={decreaseCounter} />
+             {/* here {counter} is automatically updated
+                 each time we call setCounter */}
             <span class="value">{counter}</span>
             <Button text="+" type="increase" onClick={increaseCounter} />
           </div>
