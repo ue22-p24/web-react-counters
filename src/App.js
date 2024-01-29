@@ -20,7 +20,7 @@ function App() {
   return (
     <div class="toplevel">
       <Counter text="temperature" />
-      <Counter text="pressure"  />
+      <Counter text="pressure" />
     </div>
   )
 }
