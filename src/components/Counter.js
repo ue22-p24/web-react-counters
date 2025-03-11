@@ -9,8 +9,14 @@ const Counter = (props) => {
 
     const [counter, setCounter] = useState(0)
 
-    const decreaseCounter = () => setCounter(counter-1)
-    const increaseCounter = () => setCounter(counter+1)
+    const decreaseCounter = () => {
+      setCounter(counter-1)
+      console.log(`decrease ${text} -> ${counter-1}`)
+    }
+    const increaseCounter = () => {
+      setCounter(counter+1)
+      console.log(`increase ${text} -> ${counter+1}`)
+    }
 
     // here we have a mix of actual HTML tags (in lowercase)
     // and of components tags(Button, in CamelCase)

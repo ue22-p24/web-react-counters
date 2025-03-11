@@ -1,6 +1,6 @@
 # a micro React app
 
-This is a microscopic React app; it just show two Counter components, each coming with the value displayed, and 2 buttons to tweak it up or down;
+This is a microscopic React app; it just shows two Counter components, each coming with the value displayed, and 2 buttons to tweak it up or down;
 
 The goals are mostly to
 
