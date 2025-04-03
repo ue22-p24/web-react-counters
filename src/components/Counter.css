@@ -9,7 +9,16 @@
   }
 
   .value {
-    font-size: xx-large;
-    padding: auto
+    font-size: 60px;
   }
+}
+
+.buttons {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.label {
+  font-size: 50px;
+  margin: 0;
 }

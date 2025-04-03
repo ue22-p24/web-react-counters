@@ -1,9 +1,8 @@
 .buttons {
     color: #black;
     border-radius: 6px;
-    padding: 12px;
-    margin: 3px 10px;
-    font-size: 30px;
+    padding: 0.4em;
+    font-size: 100px;
 }
 
 .increase {

@@ -22,7 +22,7 @@ const Counter = (props) => {
     // and of components tags(Button, in CamelCase)
     return (
         <div class="counter">
-          <span>{text} ({counter})</span>
+          <span class="label">{text} ({counter})</span>
           <div class="buttons">
             <Button text="-" type="decrease" onClick={decreaseCounter} />
              {/* here {counter} is automatically updated
